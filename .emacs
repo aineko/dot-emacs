@@ -1,5 +1,9 @@
 ;;; emacs --- aineko's way
 
+; encodings
+(define-coding-system-alias 'ascii 'us-ascii)
+(define-coding-system-alias 'utf8 'utf-8)
+
 ; package
 (require 'package)
 (add-to-list 'package-archives
